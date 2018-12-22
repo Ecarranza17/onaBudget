@@ -1,0 +1,119 @@
+
+/* Adding the image and making the image look nice*/
+ html {
+ height: 100%;
+ margin: 0;
+}
+
+
+body {
+  background-image: url('abaloneCove.JPG') ;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+
+
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* Position the navbar container inside the image */
+
+
+/* The navbar */
+.navbar {
+  display: flex;
+  padding: 1rem;
+  margin: auto;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+/* Navbar links */
+
+.navbar div {
+  color: #ffd180;
+  padding-bottom: .1rem;
+}
+
+.navbar button {
+  color: #ffd180;
+  margin-left: auto;
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.navbar button:hover {
+  border-bottom: .1rem solid;
+  cursor: pointer;
+
+}
+
+/* contaner 1 and 2 and its child elements */
+p {
+  color: #ffd180;
+}
+
+.container1 {
+
+    position: absolute;
+    left: 2rem;
+    max-width: 20rem;
+    padding: 1rem;
+    background-color: transparent;
+    color: #ff9800;
+
+}
+
+input {
+  font-size: 1rem;
+}
+
+input, #packages, #sumOfUnits, #amountPaid{
+      width: 100%;
+      padding: 1rem;
+      margin: .5rem 0 1rem 0;
+      border: none;
+      background: #f1f1f1;
+      color: black;
+}
+
+.submitBtn {
+    background-color: #ffab40;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 3rem ;
+    margin: .5rem 1rem 1rem ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container2 {
+  position: absolute;
+  right: 15rem;
+  margin-bottom: 1rem;
+  max-width: 20rem;
+  padding: 1rem;
+  background-color: transparent;
+  color: #ffca28;
+}
+
+/* CSS for footer */
+
+
+
+ #location {
+  float: right;
+  color: white;
+  font-size: .8rem;
+}
+
+footer {
+  margin-top: 35rem;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+
+      <div class="navbar">
+        <div>On a Budget</div>
+        <button onclick="refresh() ">Refresh</button>
+      </div>
+
+      <div class="container1">
+        <p>This app calculates how many packages and units can you buy on a budget</p>
+        <label>Budget</label>
+        <input class="reset" type="number"  id="budget" placeholder="budget">
+
+        <label>Price per Package</label>
+        <input class="reset" type="number" id="pricePerPackage" placeholder="price per package"/>
+
+        <label>Units per Package</label>
+        <input class="reset" type="number" id="unitsPerPackage" placeholder="units per package"/>
+
+        <label>Tax</label>
+        <input class="reset" type="number" id="tax" placeholder="tax">
+
+        <button onclick="unitsTotal() " class="submitBtn">Enter</button>
+
+      </div>
+
+      <div class="container2">
+        <label>Packages</label>
+        <div class="reset"  id="packages" ></div>
+
+        <label>Sum of units</label>
+        <div class="reset" id="sumOfUnits" ></div>
+
+        <label>Amount paid</label>
+        <div class="reset" id="amountPaid"></div>
+
+      </div>
+
+      <footer> Copyright <i class="far fa-copyright"></i> 2018 by Ernesto Carranza <p id="location">Rancho Palos Verdes, CA</p>     </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
